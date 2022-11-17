@@ -5,18 +5,18 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: '/mymeals',
+        title: '/myMeals',
         url: '/mymeals',
         cName: 'nav-links'
     },
     {
         title: '/mealGenerator',
-        url: '/mealGenerator',
+        url: '/mealgenerator',
         cName: 'nav-links'
     },
     {
         title: '/takeawayGenerator',
-        url: '/takeaway',
+        url: '/takeawaygenerator',
         cName: 'nav-links'
     }
 ]
