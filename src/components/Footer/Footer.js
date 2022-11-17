@@ -5,6 +5,7 @@ import {
     faInstagramSquare,
 } from '@fortawesome/free-brands-svg-icons';
 import Logo from './public/logo_transparent.png';
+import './CSS/footer.css';
 
 export default function Footer() {
     return (

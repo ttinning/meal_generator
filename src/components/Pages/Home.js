@@ -6,9 +6,12 @@ const Home = () => {
         <div className="home-container">
             <section>
                 <h1 className="title">
-                    WHAT WE COOKING
+                    WHAT WE COOKING?
                 </h1>
             </section>
+            <footer>
+                < Footer />
+            </footer>
         </div>
     )
 }

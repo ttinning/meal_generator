@@ -1,0 +1,30 @@
+.footer {
+    position: fixed;
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    font-size: 2rem;
+
+}
+
+a {
+    margin: 0 0.5vw;
+}
+
+a:hover {
+    /*color: rgb(245, 179, 66); */
+    transition: all 0.2s ease-out;
+}
+
+.Twitter, .Instagram {
+    color: black;
+}
