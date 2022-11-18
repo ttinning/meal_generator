@@ -4,14 +4,14 @@ import {
     faTwitter,
     faInstagramSquare,
 } from '@fortawesome/free-brands-svg-icons';
-import Logo from './public/logo_transparent.png';
-import './CSS/footer.css';
+import './Footer.css';
+import Logo from './logo_transparent.png'
 
 export default function Footer() {
     return (
         <div className="footer">
             <section> 
-                <img className="logo">{Logo}</img>
+                <img className="logo" src={Logo}></img>
             </section>
             <section className="social">
                 <a href="https://twitter.com" target='_blank' rel="noreferrer"  className="Twitter">

@@ -1,5 +1,5 @@
 import React from 'react';
-import './CSS/home.css';
+import './CSS/Home.css';
 
 const Home = () => {
     return (
@@ -9,9 +9,6 @@ const Home = () => {
                     WHAT WE COOKING?
                 </h1>
             </section>
-            <footer>
-                < Footer />
-            </footer>
         </div>
     )
 }
