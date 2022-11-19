@@ -1,6 +1,11 @@
+.home-container {
+    font-family: 'Oswald', sans-serif;
+    width:fit-content;
+    text-align: center;
+}
+
 .title {
-    align-items: center;
-    justify-content: center;
+    color: rgb(25,107,105,255);
     font-size: 8rem;
     font-weight: bolder;
 }

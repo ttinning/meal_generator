@@ -1,34 +1,35 @@
 .footer {
     position: fixed;
-    width: 100%;
     display: flex;
 }
 
 .logo {
     align-items: center;
-    max-height: 150px;
-    max-width: 200px;
-    width: 120px;
-    height: 120px;
+    max-height: 200px;
+    max-width: 300px;
+    width: 300px;
+    height:200px;
+    filter:contrast(25,107,105,255);
 }
 
 .social {
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
     padding: 1rem;
     font-size: 2rem;
-
+    color: rgb(25,107,105,255);
 }
 
 a {
     margin: 0 0.5vw;
+    
 }
 
 a:hover {
-    /*color: rgb(245, 179, 66); */
+    color: rgb(221, 254, 228);
     transition: all 0.2s ease-out;
 }
 
 .Twitter, .Instagram {
-    color: black;
+    color: rgb(25,107,105,255);
 }
